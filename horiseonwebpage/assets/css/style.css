@@ -9,10 +9,11 @@ body {
 }
 
 /*Logo Font Colors*/
-/*done, set as id instead of class slector*/
+/*Controls the color of "Hori" and "n"*/
 #outerLogo {
     color: #ffffff;
 }
+/*Controls the color of "seo"*/
 #innerLogo {
     color: #d9dcd6;
 }
@@ -30,7 +31,6 @@ body {
     font-size: 48px;
 }
 
-/*done, reformat div <nav*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,11 +38,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*done, reformat div <nav*/
+
 .header nav ul {
     list-style-type: none;
 }
-/*done, reformat div <nav*/
+
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -65,7 +65,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*Content Block Style*/
+/*Content Style*/
 .content {
     width: 75%;
     display: inline-block;
@@ -90,7 +90,7 @@ p {
     max-height: 200px;
 }
 
-/*todo, ?*/
+/*Content Image postioning*/
 .content-float-left {
     float: left;
     margin-right: 25px;
@@ -102,6 +102,7 @@ p {
 }
 
 /*Benefits Banner Style*/
+/*Benefits Box Style*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,12 +115,12 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Benefits text structure*/
 .benefits h3 {
     margin-bottom :10px;
     text-align: center;
 }
-
+/*Benefits Imgage structure*/
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -133,7 +134,6 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .footer h2 {
     font-size: 20px;
 }
