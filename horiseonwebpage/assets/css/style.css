@@ -9,6 +9,7 @@
 }
 
 body {
+  position: relative;
   background-color: #d9dcd6;
 }
 
@@ -36,11 +37,12 @@ p {
 }
 
 /*-----/*
-/*Header Style*/
+/*Class Style*/
 /*-----/*
 
 /*Header box structure*/
 .header {
+  position: relative;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a607c;
@@ -48,11 +50,13 @@ p {
 }
 /*Header text structure*/
 .header h1 {
+  position: relative;
   display: inline-block;
   font-size: 48px;
 }
 /*Header Navigation structure*/
 .header nav {
+  position: relative;
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -69,11 +73,9 @@ p {
   margin-left: 25px;
 }
 
-/*-----*/
-/*Hero Style*/
-/*-----*/
-
+/*Hero Structure*/
 .hero {
+  position: relative;
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -82,12 +84,9 @@ p {
   background-position: center;
 }
 
-/*-----*/
-/*Content Style*/
-/*-----*/
-
 /*Content positoning*/
 .content {
+  position: relative;
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -95,6 +94,7 @@ p {
 
 /*Content box strucutre*/
 .content section {
+  position: relative;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -103,7 +103,7 @@ p {
   color: #ffffff;
 }
 
-/*Content text*/
+/*Content text structure*/
 .content h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -125,12 +125,9 @@ max-height: 200px;
   margin-left: 25px;
 }
 
-/*-----*/
-/*Benefits Banner Style*/
-/*-----*/
-
 /*Benefits Box structure*/
 .benefits {
+  position: relative;
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -143,8 +140,9 @@ max-height: 200px;
   color: #ffffff;
 }
 
-/*Benefits text structure*/
+/*Benefits header text structure*/
 .benefits h3 {
+  margin-top: 20px;
   margin-bottom :10px;
   text-align: center;
 }
@@ -158,6 +156,7 @@ max-height: 200px;
 
 /*Footer structure*/
 .footer {
+  position: relative;
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
