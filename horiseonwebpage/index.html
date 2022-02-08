@@ -3,17 +3,20 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Online Marketing | Horiseon</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="header">
         <h1><span id="outerLogo">Hori<span id="innerLogo">seo</span>n</span></h1>
-        <nav>
+        <!--logo is 2 colors, controleld by 2 seperate ids-->
+
+        <nav> 
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!--an id ref here will link to a section id, define it within each new article section-->
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -22,7 +25,7 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </nav>
+        </nav>s
     </header>
 
     <section 
@@ -30,6 +33,8 @@
     </section>
 
     <article class="content">
+        <!--new sections added ot the article need to have id defined for proper nav linking-->
+        <!--for new sections of the article, alternate class="content-float-left/right" for visual posterity-->
         <section id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" 
                 alt="On a young professional's desk, sits a notebook full of methods for optimizing search engine results"
@@ -73,6 +78,7 @@
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
+        </section>
         <section>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
