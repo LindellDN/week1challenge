@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # week1challenge-
 This project is a refactor of the html and CSS style-sheet for an online marketing company called Horiseon.
 
